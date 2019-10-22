@@ -1,18 +1,29 @@
 {
-  "name": "playground",
-  "version": "1.0.0",
-  "description": "",
+  "name": "cicd-nodejs-jenkins-docker-app",
+  "version": "0.0.1",
+  "description": "jenkins-build-test-deploy-node-app",
   "main": "app.js",
   "scripts": {
     "test": "jasmine-node spec"
   },
-  "author": "",
+  "author": "ops-at",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.1",
     "request": "^2.85.0"
   },
   "devDependencies": {
     "jasmine-node": "^1.14.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ops-at/CICD-NodeJs-Jenkins-Docker-app.git"
+  },
+  "keywords": [
+    "jenkins-cicd"
+  ],
+  "bugs": {
+    "url": "https://github.com/ops-at/CICD-NodeJs-Jenkins-Docker-app/issues"
+  },
+  "homepage": "https://github.com/ops-at/CICD-NodeJs-Jenkins-Docker-app#readme"
 }
